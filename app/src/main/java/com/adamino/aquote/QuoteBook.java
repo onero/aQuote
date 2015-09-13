@@ -12,6 +12,7 @@ public class QuoteBook {
                     "William Arthur Ward"},
             {"The true sign of intelligence is not knowledge, but imagination.",
                     "Albert Einstein"}
+            //TODO: Add more quotes
     };
 
 }
