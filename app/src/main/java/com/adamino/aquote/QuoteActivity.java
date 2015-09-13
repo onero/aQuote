@@ -33,18 +33,11 @@ public class QuoteActivity extends AppCompatActivity {
 
                 String Quote = mQuoteBook.mQuotes[randomNumber][0];
                 String Author = mQuoteBook.mQuotes[randomNumber][1];
+                int Image = Integer.parseInt(mQuoteBook.mQuotes[randomNumber][2]);
                 // Update the Quote
                 textQuote.setText(Quote);
                 textAuthor.setText(Author);
-
-
-                if (randomNumber == 0) {
-                    imageAuthor.setImageResource(R.drawable.borge);
-                } else if (randomNumber == 1) {
-                    imageAuthor.setImageResource(R.drawable.ward);
-                } else if (randomNumber == 2) {
-                    imageAuthor.setImageResource(R.drawable.einstein);
-                }
+                imageAuthor.setImageResource(Image);
 
             }
         };
